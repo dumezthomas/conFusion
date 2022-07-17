@@ -59,6 +59,7 @@ body {
 
   .carousel-item {
     height: $carousel-item-height;
+
     img {
       position: absolute;
       top: 0;
@@ -73,4 +74,17 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1;
+}
+
+.modal-header {
+  background: $background-dark;
+  color: floralwhite;
+
+  .btn-secondary {
+    color: floralwhite;
+  }
+}
+
+.modal-body {
+  background: $background-pale;
 }
